@@ -99,7 +99,7 @@ h1 {
 
   .carousel {
     position: relative;
-    background: url("/img/converse-all-star-mobile.jpeg");
+    /* background: url("/img/converse-all-star-mobile.jpeg"); */
     background-size:contain;
     background-position: center;
   }
