@@ -100,7 +100,7 @@ h1 {
   .carousel {
     position: relative;
     background: url(/img/converse-all-star-mobile.png);
-    background-size:cover;
+    background-size:contain;
     background-position: center;
   }
 
@@ -113,8 +113,14 @@ h1 {
     margin: 0;
   }
 
-  .carousel-text p {
+  .carousel-text h2 {
     padding: 0 60px;
+    margin: 0;
+  }
+
+  .carousel-text p {
+    max-width: 400px;
+    padding: 10px 80px;
     margin: 0;
   }
 
