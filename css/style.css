@@ -1,0 +1,128 @@
+
+/* Font */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+.header {
+  color: #f9f9f9;
+  background-color: #181818;
+  padding: 20px;
+}
+
+.main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.carousel {
+  color: #f9f9f9;
+  padding: 60px 0;
+  background: url(/img/converse-all-star.jpeg);
+  background-size:cover;
+  background-position: center;
+}
+
+.carousel-text {
+  text-align: left;
+  max-width: 1500px;
+  padding-left: 60px;
+}
+
+.carousel-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 120px 20px 20px 20px ;
+}
+
+.carousel-text p {
+  max-width: 360px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2em;
+  padding: 20px 20px 120px 20px ;
+}
+
+.container-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.destaques h2 {
+  font-size: 28px;
+  padding: 60px 0 20px 0;
+}
+
+.destaques p {
+  font-size: 16px;
+  padding: 0 60px 40px;
+  line-height: 2em;
+}
+
+
+.product-box {
+  max-width: 300px;
+  background-color: #e8e9ea;
+  margin: 15px 7px;
+  padding: 100px 40px;
+  transition: all ease 0.3s;
+}
+.product-box:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.19);
+  transform: translateY(-1%);
+}
+
+.product-box img {
+  margin: 0 auto;
+}
+
+.footer {
+  color: #f9f9f9;
+  background-color: #181818;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+
+  .carousel {
+    position: relative;
+    background: url(/img/converse-all-star-mobile.png);
+    background-size:cover;
+    background-position: center;
+  }
+
+  .carousel-text {
+    text-align: center;
+    position: relative;
+    color: #181818;
+    top: 230px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .carousel-text p {
+    padding: 0 60px;
+    margin: 0;
+  }
+
+  .main {
+    padding-top: 180px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+  }
