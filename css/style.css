@@ -101,10 +101,10 @@ h1 {
 
   .carousel {
     position: relative;
-    background: url("/img/converse-all-star-logo-mobile.jpeg");
+    /* background: url("/img/converse-all-star-logo-mobile.jpeg");
     background-size:cover;
     background-position: center;
-    padding: 90px 0;
+    padding: 90px 0; */
   }
 
   .carousel-text {
