@@ -26,7 +26,7 @@ h1 {
 .carousel {
   color: #f9f9f9;
   padding: 60px 0;
-  background: url("/img/converse-all-star-logo-uhd-4k-wallpaper.jpg");
+  background: url("img/converse-all-star-logo-uhd-4k-wallpaper.jpg");
   background-size:cover;
   background-position: center;
 }
