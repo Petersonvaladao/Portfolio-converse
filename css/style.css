@@ -26,7 +26,7 @@ h1 {
 .carousel {
   color: #f9f9f9;
   padding: 60px 0;
-  background: url("/img/WallpaperDog-851486.jpeg");
+  background: url('/img/WallpaperDog-851486.jpeg');
   background-size:cover;
   background-position: center;
 }
@@ -98,7 +98,6 @@ h1 {
 }
 
 @media (max-width: 700px) {
-
 
   .carousel-text h2 {
     padding: 0 80px;
