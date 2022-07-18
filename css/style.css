@@ -103,23 +103,21 @@ h1 {
     position: relative;
     background: url("/img/converse-all-star-logo-mobile.jpeg");
     background-size:cover;
-    background-repeat: no-repeat;
     background-position: center;
     padding: 90px 0;
   }
 
   .carousel-text {
     text-align: center;
-    position: relative;
+    position: absolute;
     color: #181818;
-    top: 290px;
+    top: 210px;
     padding: 0;
     margin: 0;
   }
 
   .carousel-text h2 {
-    padding: 0 60px;
-    margin: 0;
+    padding: 0 80px;
   }
 
   .carousel-text p {
