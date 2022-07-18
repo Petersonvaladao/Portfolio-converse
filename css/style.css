@@ -99,13 +99,31 @@ h1 {
 
 @media (max-width: 700px) {
 
-  .carousel-text h2 {
-    padding: 0 80px;
+  .carousel {
+    color: #181818;
+    position: relative;
+    background: url("../img/converse-all-star-logo-mobile.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
   }
 
+  .carousel-text {
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .carousel-text h2 {
+    padding: 20px 80px;
+  }
+  
   .carousel-text p {
     max-width: 400px;
-    padding: 10px 80px;
+    padding: 10px 30px;
     margin: 0;
   }
 
